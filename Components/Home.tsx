@@ -4,7 +4,7 @@ import Button from './Button';
 
 const Home = () => {
   return (
-    <div className='w-full h-screen flex items-start justify-center bg-Home bg-opacity-60 bg-fixed bg-no-repeat bg-center bg-cover md:bg-cover'>
+    <div className='w-full h-screen flex items-start justify-center bg-main/60'>
       <div className='flex flex-col items-center justify-start'>
         <Logo />
         <Button/>
