@@ -1,6 +1,7 @@
 import React from 'react';
 import Logo from './Logo';
 import Button from './Button';
+import Call from './Call';
 
 const Home = () => {
   return (
@@ -8,6 +9,7 @@ const Home = () => {
       <div className='flex flex-col items-center justify-start'>
         <Logo />
         <Button/>
+        <Call/>
       </div>
     </div>
   );

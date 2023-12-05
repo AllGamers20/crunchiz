@@ -1,5 +1,6 @@
 import Home from '@/Components/Home'
 import Menu from '@/Components/Menu'
+import Top from "@/Components/Top"
 import Head from 'next/head'
 import React from 'react'
 
@@ -12,6 +13,7 @@ const index = () => {
       </Head>
       <Home/>
       <Menu/>
+      <Top/>
     </>
   )
 }

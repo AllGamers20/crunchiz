@@ -14,6 +14,9 @@ module.exports = {
         'Home':'url("../public/img/Background.jpeg")',
         'Home2':'url("../public/img/Background2.png")',
       },
+      fontFamily:{
+        Oburger: ['var(--font-Oburger)'],
+      },
       colors:{
         main: '#f4c015',
       },
