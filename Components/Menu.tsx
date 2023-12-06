@@ -19,13 +19,13 @@ const MenuPage = () => {
                 <Image
                   width={500}
                   height={100}
-                  src={`/Menuimg/${encodeURIComponent(item.name.toUpperCase())}.jpg`}
+                  src={`./Images/${encodeURIComponent(item.name.toUpperCase())}.jpg`}
                   alt={item.name}
                   className="w-full object-cover mb-4 rounded-md"
                   onError={(e) => {
                     console.error(`Error loading image for ${item.name}:`, e);
                     if (e.currentTarget.src.includes(".jpg")) {
-                      const alternativeImage = `/Menuimg/${encodeURIComponent(item.name.toUpperCase())}.png`;
+                      const alternativeImage = `./Images/${encodeURIComponent(item.name.toUpperCase())}.png`;
                       fetch(alternativeImage)
                         .then((response) => {
                           if (response.ok) {
