@@ -16,6 +16,8 @@ module.exports = {
       },
       fontFamily:{
         Oburger: ['var(--font-Oburger)'],
+        RedPeapers:['var(--font-RedPeppers)'],
+        FoodList:['var(--font-FoodList)']
       },
       colors:{
         main: '#f4c015',

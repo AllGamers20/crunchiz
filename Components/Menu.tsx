@@ -10,7 +10,7 @@ const MenuPage = () => {
       <HeadLine title={"Menu"} />
       {data.Menudata.categories.map((category: any) => (
         <div key={category.category} className="mb-8 p-6">
-          <h2 className="text-2xl font-bold mb-4 p-4 bg-main w-full rounded-full text-center font-Oburger">{category.category}</h2>
+          <h2 className="text-2xl font-bold mb-4 p-4 bg-main w-full rounded-full text-center font-RedPeapers">{category.category}</h2>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 p-6">
             {category.items.map((item: any) => (
               <div
@@ -40,9 +40,9 @@ const MenuPage = () => {
                     }
                   }}
                 />
-                <strong className="text-lg font-semibold">{item.name}</strong>
-                <p className="text-gray-700 mb-2">{item.description}</p>
-                <p className="text-green-600 font-semibold">
+                <strong className="text-lg font-semibold font-Oburger">{item.name}</strong>
+                <p className="text-gray-700 mb-2 font-FoodList">{item.description}</p>
+                <p className="text-green-600 font-semibold font-FoodList">
                   Price: {item.price}
                 </p>
               </div>
