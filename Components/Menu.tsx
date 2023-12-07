@@ -1,6 +1,6 @@
 'use client';
 import React from 'react';
-import data from "../Data/data.json";
+import data from "../Data/data.json"; // Import the JSON file
 import Image from "next/image";
 import HeadLine from './HeadLine';
 
@@ -15,8 +15,7 @@ const MenuPage = () => {
             {category.items.map((item: any) => (
               <div
                 key={item.name}
-                className="bg-white p-4 rounded-lg shadow-2xl"
-              >
+                className="bg-white p-4 rounded-lg shadow-2xl">
                 <Image
                   width={500}
                   height={100}
@@ -26,8 +25,18 @@ const MenuPage = () => {
                   onError={(e) => {
                     console.error(`Error loading image for ${item.name}:`, e);
                     if (e.currentTarget.src.includes(".jpg")) {
-                      const alternativeImage = `./Images/${encodeURIComponent(item.name.toUpperCase())}.jpg`;
-                      e.currentTarget.src = alternativeImage;
+                      const alternativeImage = `./Images/${encodeURIComponent(item.name.toUpperCase())}.png`;
+                      fetch(alternativeImage)
+                        .then((response) => {
+                          if (response.ok) {
+                            e.currentTarget.src = alternativeImage;
+                          } else {
+                            console.error(`Failed to fetch alternative image: ${alternativeImage}`);
+                          }
+                        })
+                        .catch(() => {
+                          console.error(`Error fetching alternative image: ${alternativeImage}`);
+                        });
                     }
                   }}
                 />
