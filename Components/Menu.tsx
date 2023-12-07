@@ -21,6 +21,7 @@ const MenuPage = () => {
               >
                 
                 <Image
+                  unoptimized= {false}
                   loading='lazy'
                   width={500}
                   height={100}
