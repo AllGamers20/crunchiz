@@ -20,8 +20,7 @@ const MenuPage = () => {
                 className="bg-white p-4 rounded-lg shadow-2xl"
               >
                 
-                <Image
-                  unoptimized= {false}
+                <img
                   loading='lazy'
                   width={500}
                   height={100}
