@@ -1,6 +1,6 @@
 'use client';
 import React from 'react';
-import data from "../Data/data.json"; // Import the JSON file
+import data from "../Data/data"; // Import the JSON file
 import Image from "next/image";
 import HeadLine from './HeadLine';
 
