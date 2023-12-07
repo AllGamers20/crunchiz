@@ -20,7 +20,7 @@ const MenuPage = () => {
                 <Image
                   width={500}
                   height={100}
-                  src={`../Images/${encodeURIComponent(item.name.toUpperCase())}.jpg`}
+                  src={`../Images/${encodeURIComponent(item.image)}.jpg`}
                   alt={item.name}
                   className="w-full object-cover mb-4 rounded-md"
                 />
