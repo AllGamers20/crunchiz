@@ -6,7 +6,20 @@ module.exports = {
 
   ],
   theme: {
-    extend: {},
+    extend: {
+      backgroundImage:{
+        'Home':'url("../public/img/Background.jpeg")',
+        'Home2':'url("../public/img/Background2.png")',
+      },
+      fontFamily:{
+        Oburger: ['var(--font-Oburger)'],
+        RedPeapers:['var(--font-RedPeppers)'],
+        FoodList:['var(--font-FoodList)']
+      },
+      colors:{
+        main: '#f4c015',
+      },
+    },
   },
   plugins: [],
 }
