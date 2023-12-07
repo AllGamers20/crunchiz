@@ -8,25 +8,25 @@
             "name": "Mushroom",
             "price": "$4.7",
             "description": "Meat, Sliced Onions, BBQ Sauce",
-            "image": "../Images/Mushroom.jpg"
+            "image": "Images/Mushroom.jpg"
           },
           {
             "name": "Classic",
             "price": "$4",
             "description": "Meat, Sliced Onions, BBQ Sauce, Iceberg Lettuce, Tomatoes, Cocktail Sauce Pickles",
-            "image": "../Images/Classic.jpg"
+            "image": "Images/Classic.jpg"
           },
           {
             "name": "Lebanese",
             "price": "$4",
             "description": "Meat, Claslaw, Fries, Ketchup",
-            "image": "../Images/Lebanese.jpg"
+            "image": "Images/Lebanese.jpg"
           },
           {
             "name": "Zinger",
             "price": "$4.5",
             "description": "Chicken, Pickles, Iceberg, Tomatoes, Cocktail Suace, Cheddar Slice",
-            "image": "../Images/Zinger.jpg"
+            "image": "Images/Zinger.jpg"
           }
         ]
       },
@@ -37,7 +37,7 @@
             "name": "Hotdog",
             "price": "$3.3",
             "description": "Jalapeno, Cheddar Cheese, Mayonnaise, Ketchup, BBQ Sauce, Chips",
-            "image": "../Images/Hotdog.jpg"
+            "image": "Images/Hotdog.jpg"
           }
         ]
       },
@@ -48,25 +48,25 @@
             "name": "Crispy",
             "price": "$6.3",
             "description": "5 Pieces",
-            "image": "../Images/Crispy.jpg"
+            "image": "Images/Crispy.jpg"
           },
           {
             "name": "Crispy",
             "price": "$8",
             "description": "7 Pieces",
-            "image": "../Images/Crispy.jpg"
+            "image": "Images/Crispy.jpg"
           },
           {
             "name": "Crispy",
             "price": "$10.2",
             "description": "9 Pieces",
-            "image": "../Images/Crispy.jpg"
+            "image": "Images/Crispy.jpg"
           },
           {
             "name": "Crispy",
             "price": "$13.4",
             "description": "15 Pieces",
-            "image": "../Images/Crispy.jpg"
+            "image": "Images/Crispy.jpg"
           }
         ]
       },
@@ -77,19 +77,19 @@
             "name": "Quesadilla",
             "price": "$5.7",
             "description": "Chicken, Cheddar Cheese, Avocado Sauce",
-            "image": "../Images/Quesadilla.jpg"
+            "image": "Images/Quesadilla.jpg"
           },
           {
             "name": "TacoChicken",
             "price": "$2.9",
             "description": "Chicken, Mozzarella, Garlic Sauce, Jalapenos",
-            "image": "../Images/TacoChicken.jpg"
+            "image": "Images/TacoChicken.jpg"
           },
           {
             "name": "Fajita",
             "price": "$4.5",
             "description": "Onions, Mushrooms, Capsicums, Corn, Iceberg, Avocado Sauce",
-            "image": "../Images/Fajita.jpg"
+            "image": "Images/Fajita.jpg"
           }
         ]
       },
@@ -100,13 +100,13 @@
             "name": "Twister",
             "price": "$4.2",
             "description": "Crispy Strips, Pepper Mayo, Iceberg Lettuce, Tomatoes",
-            "image": "../Images/Twister.jpg"
+            "image": "Images/Twister.jpg"
           },
           {
             "name": "Boneless",
             "price": "$4.5",
             "description": "Chicken, Ranch, Honey Mustard, BBQ Sauce, Chips",
-            "image": "../Images/Boneless.jpg"
+            "image": "Images/Boneless.jpg"
           }
         ]
       },
@@ -117,19 +117,19 @@
             "name": "FriesPlate",
             "price": "$1.8",
             "description": "Fries, Cheese, Sour Cream",
-            "image": "../Images/FriesPlate.png"
+            "image": "Images/FriesPlate.png"
           },
           {
             "name": "FriesPlate",
             "price": "$3.3",
             "description": "Fries, Cheese, Sour Cream (Large)",
-            "image": "../Images/FriesPlate.png"
+            "image": "Images/FriesPlate.png"
           },
           {
             "name": "FriesSandwich",
             "price": "$1.8",
             "description": "Fries, Cheese, Sour Cream, Ketchup",
-            "image": "../Images/FriesSandwich.jpg"
+            "image": "Images/FriesSandwich.jpg"
           }
         ]
       },
@@ -140,25 +140,25 @@
             "name": "IceTea",
             "price": "$0.9",
             "description": "Lemonade",
-            "image": "../Images/IceTea.png"
+            "image": "Images/IceTea.png"
           },
           {
             "name": "Pepsi",
             "price": "$0.9",
             "description": "Pepsi",
-            "image": "../Images/Pepsi.png"
+            "image": "Images/Pepsi.png"
           },
           {
             "name": "7Up",
             "price": "$0.9",
             "description": "7 Up",
-            "image": "../Images/7Up.png"
+            "image": "Images/7Up.png"
           },
           {
             "name": "Miranda",
             "price": "$0.9",
             "description": "Miranda",
-            "image": "../Images/Miranda.png"
+            "image": "Images/Miranda.png"
           }
         ]
       }
