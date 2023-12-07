@@ -6,7 +6,7 @@ import menuData from '../Data/data';
 
 const MenuPage = () => {
   return (
-    <div className="container mx-auto my-8" id="Menu">
+    <div className="container mx-auto md:w-full w-[500px]" id="Menu">
       <HeadLine title={"Menu"} />
       {menuData.Menudata.categories.map((category) => (
         <div key={category.category} className="mb-8 p-6">
