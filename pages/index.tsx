@@ -13,7 +13,6 @@ const index = () => {
       </Head>
       <Home/>
       <Menu/>
-      <Top/>
     </>
   )
 }
