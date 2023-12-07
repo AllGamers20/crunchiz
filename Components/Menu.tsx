@@ -15,30 +15,14 @@ const MenuPage = () => {
             {category.items.map((item: any) => (
               <div
                 key={item.name}
-                className="bg-white p-4 rounded-lg shadow-2xl">
+                className="bg-white p-4 rounded-lg shadow-2xl"
+              >
                 <Image
                   width={500}
                   height={100}
-                  src={`./Images/${encodeURIComponent(item.name.toUpperCase())}.jpg`}
+                  src={`../Images/${encodeURIComponent(item.name.toUpperCase())}.jpg`}
                   alt={item.name}
                   className="w-full object-cover mb-4 rounded-md"
-                  onError={(e) => {
-                    console.error(`Error loading image for ${item.name}:`, e);
-                    if (e.currentTarget.src.includes(".jpg")) {
-                      const alternativeImage = `./Images/${encodeURIComponent(item.name.toUpperCase())}.png`;
-                      fetch(alternativeImage)
-                        .then((response) => {
-                          if (response.ok) {
-                            e.currentTarget.src = alternativeImage;
-                          } else {
-                            console.error(`Failed to fetch alternative image: ${alternativeImage}`);
-                          }
-                        })
-                        .catch(() => {
-                          console.error(`Error fetching alternative image: ${alternativeImage}`);
-                        });
-                    }
-                  }}
                 />
                 <strong className="text-lg font-semibold font-Oburger">{item.name}</strong>
                 <p className="text-gray-700 mb-2 font-FoodList">{item.description}</p>
