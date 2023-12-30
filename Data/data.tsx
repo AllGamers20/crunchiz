@@ -210,7 +210,7 @@ const menuData = {
             name: "Offer4",
             price: "$10",
             description: "Crunchiz Combo + Soft Drinks",
-            image: "https://i.postimg.cc/d0RJxydD/Offer3.jpg",
+            image: "https://i.postimg.cc/t4ScCCjD/Offer4.jpg",
           },
         ],
       },
